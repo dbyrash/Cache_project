@@ -9,9 +9,9 @@ Replacement Policy : For Direct Cache - replace cache line.
                      For Set-Associative - If all ways are valid, then select the way base on (clock_cycle % way_associative).
 
 ## Features
-Takes Address, Data and Data Size form Text File in the form of hexadecimal data.
-Uses Lists and Dictonaries to form a Cache
-Stores data in the cache using the address in the text file.
+1. Takes Address, Data and Data Size form Text File in the form of hexadecimal data.
+2. Uses Lists and Dictonaries to form a Cache
+3. Stores data in the cache using the address in the text file.
 
 ## Configurations
 Cache size: 1K, 2K, 4K, 8K, 16K, 32K-Byte
